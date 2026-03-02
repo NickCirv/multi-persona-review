@@ -1,0 +1,10 @@
+{
+  "name": "multi-persona-review",
+  "version": "1.0.0",
+  "description": "3 AI personas review your code simultaneously. Security. Performance. Clarity. All at once.",
+  "type": "module",
+  "bin": { "mpr": "./index.js" },
+  "keywords": ["code-review", "ai", "claude", "security", "performance", "cli"],
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
