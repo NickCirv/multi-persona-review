@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # multi-persona-review 🎭
 
 Three AI experts review your code simultaneously.
