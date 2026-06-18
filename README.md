@@ -30,7 +30,7 @@ CRITICAL: Line 47 — SQL query built with string concatenation
   Fix: Use parameterized queries: db.query("...WHERE id = $1", [userId])
 
 HIGH: Line 23 — API key hardcoded in source
-  const KEY = "sk-prod-abc123..."
+  const KEY = "sk-prod-••••••(redacted)"
   Fix: Move to environment variable, add to .gitignore
 
 ⚡ THE PERFORMANCE MONK
@@ -70,7 +70,7 @@ npm link
 ## Setup
 
 ```bash
-export ANTHROPIC_API_KEY=sk-ant-your-key-here
+export ANTHROPIC_API_KEY="<your-key>"
 ```
 
 No key? It still runs — each persona shows what it would look for (mock mode).
