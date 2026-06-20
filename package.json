@@ -5,6 +5,7 @@
   "type": "module",
   "bin": { "mpr": "./index.js" },
   "keywords": ["code-review", "ai", "claude", "security", "performance", "cli"],
+  "scripts": { "test": "node --test" },
   "license": "MIT",
-  "engines": { "node": ">=18" }
+  "engines": { "node": ">=20" }
 }
